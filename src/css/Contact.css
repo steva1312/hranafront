@@ -1,0 +1,56 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color:maroon;
+    margin-bottom: 50px;
+}
+.contact{
+    font-weight: bold;
+    text-align: center;
+}
+.brat {
+    margin-bottom: 50px;
+}
+.brat a{
+    color:maroon;
+    font-size: 25px;
+}
+.insta{
+    width: 25px;
+    height: 25px;
+}
+.brat a:hover{
+    color:blue;
+}
+.brat ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.mail{
+    width: 25px;
+    height: 25px;
+    align-self: left;
+}
+.linkovi{
+    display: flex;
+    flex-direction: column;
+}
+.brat li{
+    color:maroon;
+    font-size: 25px;
+}
+.brat h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.brat div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.sajtskole{
+    padding-bottom: 30px;
+}

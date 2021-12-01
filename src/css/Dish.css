@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital@1&family=Roboto+Slab:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    margin-right: 25px;
+}
+.like-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.like{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+.dish{
+    width: 700px;
+    display: flex;
+    margin: 12px;
+    padding: 20px;
+    border:solid black 5px;
+    background-color: rgb(200, 200, 200);   
+}
+.imejela{
+    font-size: 50px;
+    text-align:left;
+    color: rgb(8, 8, 8);
+    font-weight: 600;
+    margin-top:4px;
+}
+.imerestorana{
+    font-size: 32px;
+    color: rgb(8, 8, 8);
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+}
+.komentar{
+    color: rgb(8, 8, 8);
+    margin-top:3px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.date{
+    text-align: right;
+    color: rgb(8, 8, 8);
+}
+nav{
+    text-align: center;
+}

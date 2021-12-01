@@ -1,0 +1,35 @@
+.kareg:hover{
+    transition: all 0.3s ease 0s;
+    color:paleturquoise;
+    background-color: red;
+}
+.kareg{
+    color: navy;
+}
+label{
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+input{
+    margin-top:2px;
+    margin-bottom: 10px;
+    background-color: white;
+    font-size: 24px; 
+       
+}
+.prijava{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    size: 10px;
+}
+.divac{
+    display: flex;
+    flex-direction:column;
+}
+.msg{
+    text-align: center;
+    color:red;
+    font-size: 25px;
+    font-weight:600;
+}
