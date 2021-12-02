@@ -11,6 +11,7 @@ const Dish = ({dish, user, isAuth}) => {
             user.liked.forEach(dishId => {
                 if(dishId === dish._id) setLiked(true)
             });
+            console.log(user)
         }
         
     }, [])
@@ -18,11 +19,11 @@ const Dish = ({dish, user, isAuth}) => {
     const like = () => {
         if(!isAuth) return
         if(liked) {
-            axios.delete(`https://favfood.herokuapp.com/liked/${user._id}`, {id: user._id}).then(res => console.log(res))
+            axios.delete(`https://favfood.herokuapp.com/liked/${user._id}`, {data: {id: dish._id}}).then(res => console.log(res))
             axios.delete(`https://favfood.herokuapp.com/api/dish/like/${dish._id}`).then(res => console.log(res))
             setLiked(false)
         } else {
-            axios.put(`https://favfood.herokuapp.com/liked/${user._id}`, {id: user._id}).then(res => console.log(res))
+            axios.put(`https://favfood.herokuapp.com/liked/${user._id}`, {id: dish._id}).then(res => console.log(res))
             axios.put(`https://favfood.herokuapp.com/api/dish/like/${dish._id}`).then(res => console.log(res))
             setLiked(true)
         }
